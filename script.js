@@ -175,3 +175,30 @@
 
 //юліан по поводу макету дороблю його з пятниці на суботу з часом проблеми + нехочу відстати по дж тому надіюсь на розуміння 
 // і те шо ти це прочиташ ))))))
+
+
+let users = [];
+let user1 = {
+    age: '21' ,
+    name:'Maks',
+    hobby: 'bike'
+};
+
+let user2 = {
+    age: '22',
+    name: 'Mark',
+    hobby: 'football'
+};
+
+let user3 = {
+    age: '25',
+    name: 'Mike',
+    hobby:  'basketball'
+};
+
+
+users.unshift(user1);
+users.unshift(user2);
+users.push(user3);
+
+console.log(users);
